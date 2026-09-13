@@ -49,6 +49,7 @@ body {
   }
   .animate-blink,
   .animate-scanline {
+    animation: scanline 6s linear infinite;
     animation: none !important;
   }
 }
