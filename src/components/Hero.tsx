@@ -124,8 +124,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/10 to-transparent" />
 
               {/* Scanline */}
-              <div className="absolute inset-x-0 top-0 h-1/3 animate-scanline bg-gradient-to-b from-scan/25 via-scan/5 to-transparent" />
-
+              <div className="pointer-events-none absolute inset-x-0 top-0 h-full animate-scanline bg-gradient-to-b from-scan/25 via-scan/5 to-transparent" />
               {/* REC */}
               <div className="absolute left-4 top-4 flex items-center gap-1.5 rounded-full border border-hairline2 bg-ink/60 px-2.5 py-1 backdrop-blur-sm">
                 <Radio size={11} className="animate-blink text-alert" />
